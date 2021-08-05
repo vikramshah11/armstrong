@@ -10,13 +10,11 @@
           $value = $value/10;
           
       }
-
-      echo $rem * $value * $rem. "<br/>";
       echo $sum. "<br/>";
       if ($num == $sum)
       
-          echo $num. " It is an Armstrong Number";
+          echo $num. " It is an <b>Armstrong Number</b>";
       
       else
-          echo $num. " It is not an Armstrong Number";
+          echo $num. " It is not an <b>Armstrong Number</b>";
       ?>
